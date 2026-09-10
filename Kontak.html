@@ -1,0 +1,142 @@
+ <!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Informasi Kontak</title>
+  </head>
+  <body>
+    <h1>INFORMASI KONTAK</h1>
+    <p>
+      Jika anda ingin berdikusi atau bekerjasama dengan saya, Silahkan hubungi
+      saya melalui from berrikut <br />Anda juga dapat mengirim Email ke
+      <a href="mailto:shfaaulll23@student.upi.edu">shfaaulll23@student.upi.edu</a
+      ><br />
+    </p>
+    <nav>
+      <a href="Home.html">Home</a> | <a href="About.html">About</a> |
+      <a href="Project.html">Project</a> | <a href="Kontak.html">Kontak</a>
+    </nav>
+    <hr />
+  </body>
+  <body>
+    <h2>Form Diskusi</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <th colspan="3">From Data Kontak</th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <th>
+          <form action="#" method="post" enctype="multipart/form-data"></form>
+          <label for="nama">Nama Lengkap </label>
+        </th>
+        <td>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama lengkap"
+            required
+          />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="Email">Email </label>
+        </th>
+        <td>
+          <input type="email" id="email" name="email" required />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="Nomor Telepon">Nomor Telepon</label>
+        </th>
+        <td>
+          <input type="=Tel" id="Nomor Telepon" nama="Nomor Telepon" required />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="Jenis Kelamin">Jenis Kelamin</label>
+        </th>
+        <td>
+          <input
+            type="radio"
+            id="laki-laki"
+            name="jenis_kelamin"
+            value="L"
+            required
+          />
+          <label for="laki-laki">Laki-laki</label>
+          <input type="radio" id="perempuan" name="jenis_kelamin" value="P" />
+          <label for="perempuan">Perempuan</label><br /><br />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="tanggal-lahir">Tanggal Lahir</label>
+        </th>
+        <td>
+          <input type="date" id="tanggal-lahir" name="tanggal_lahir" />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="Topik Pesanan">Topik Pesanan</label>
+        </th>
+        <td>
+          <select name="topik">
+          <option value="Diskusi">Diskusi</option> >
+          <option value="Kerja Sama" >Kerja Sama</option>
+          <option value="Lainnya" >Lainnya</option>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="Jenis Pesan">Jenis Pesan</label>
+        </th>
+       <td>
+          <input
+            type="radio"
+            name="jenis_Pesan"
+            value="Pertanyaan"
+            required
+          />
+          <label for="Pertanyaan">Pertanyaan</label>
+          <input type="radio" name="jenis_Pesan" value="Saran" />
+          <label for="Saran">Saran</label>
+          <input type="radio" name="jenis_Pesan" value="Lainnya"/>
+          <label for="Lainnya">Lainnya</label><br /><br />
+       </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="Pesan">Pesan</label>
+          </th>
+          <td>
+            <textarea name="Pesan"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="Salinan Pesan">Salinan Pesan</label>
+          </th>
+          <td class="checkbox-row">
+            <input type="checkbox" name="Salinan" id="Salinan"/>
+          <label for="Salinan">Kirim Salinan Pesan Ke email saya</label>
+        </td>
+        </tr> 
+        <tr>
+          <td colspan="2" class="button-row">
+            <button type="submit">Kirim Pesan</button>
+            <button type="reset">reset</button>
+          </td>
+        </tr>
+    </table>
+    <hr />
+    <p>
+      &copy; 2026 Shafa Aulia. Di Buat Menggunakan HTML.
+    </p>
+  </body>
+</html>
